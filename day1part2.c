@@ -64,8 +64,6 @@ int main()
          i++;
       }
 
-      printf("s%d\n", currentsum);
-
       if (currentsum > previoussum) largerthan++;
       previoussum = currentsum;
       currentsum = 0;
